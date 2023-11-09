@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chris Hangman</title>
+    <link rel="stylesheet" href="hangman.css">
+    <script src="hangman.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <h1>Mr.West Movie Hangman</h1>
+      <div id="gallows1">
+        <img style="padding-left: 30px" id="hangmanImage" src="hangman1.png"/>
+      </div>
+      <div id="word"></div>
+      <div id="gallows">
+        <img style="padding-left: 30px" id="hangmanImage" src="hangman1.png"/>
+      </div>
+      <br>
+      <div id="controls">
+        <input type="text" id="guessBox">
+        <button id="guessWordButton" class="button" onclick="guessWord( game )">Guess Word</button>
+        <button id="newGameButton" class="button" onclick="newGame();">New Game Sway</button>
+        <br>
+        <br>
+      </div>
+      <br>
+      <div id="guesses"></div>
+    </main>   
+   
+  </body>
+</html>

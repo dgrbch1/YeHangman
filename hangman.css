@@ -1,0 +1,130 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#gallows1{
+  display: none;
+
+}
+html {
+  background-image: url("kanye-west.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  overflow: hidden;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h5 {
+  color: red;
+  font-weight: bolder;
+  text-align: center;
+}
+
+  .win {
+    color: darkgreen;
+    background-color: green;
+    font-weight: bolder;
+  }
+  
+  .loss {
+    color: white;
+    background-color: blue;
+  }
+  
+  #word {
+    letter-spacing: 10px;
+    text-align: center;
+    font-size: 24pt;
+    color: white;
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace
+  }
+  
+  #guesses {
+    text-align: center;
+    font-size: 16pt;
+    font-weight: bolder;
+    color: brown;
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace
+  }
+  
+  .guess {
+    padding: 10px;
+    display: inline-block;
+    background-color: white;
+    border: 2px solid purple;
+    border-radius: 10px;
+    font-weight: bolder;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  @media only screen and (min-device-width: 375px ) and (max-device-width: 667px) {
+      #guesses {
+      text-align: center;
+      font-size: 24pt;
+      color: rgb(255, 255, 153);
+      font-weight: bold;
+      font-family: "Courier New", Courier, monospace;
+      box-shadow: 0 9px #999;
+    }
+  
+    .guess {
+      padding: 30px;
+      display: inline-block;
+      border: 2px solid purple;
+      border-radius: 10px;
+      margin: 10px;
+      cursor: pointer;
+      
+    }
+  }
+  
+  #guessBox {
+      height: 60px;
+      border-radius: 10px;
+      padding-top: 5px;
+      font-size: 18pt;
+      width: 200px;
+      padding-left: 10px;
+  }
+  
+  /* Buttons */
+  .button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #666;
+    background-color: palevioletred;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: rgb(224, 224, 139)}
+  
+  .button:active {
+    background-color: rgb(224, 224, 139);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+ #gallows{
+  text-align: center;
+ }
